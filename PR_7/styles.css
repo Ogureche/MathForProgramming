@@ -1,0 +1,28 @@
+#maze, #editor {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    gap: 1px;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.wall {
+    background-color: black;
+}
+
+.player {
+    background-color: red;
+}
+
+#mazeArray {
+    margin-top: 20px;
+    font-family: monospace;
+    white-space: pre; 
+}
